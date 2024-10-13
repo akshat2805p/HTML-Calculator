@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    width: 100vw;
+    overflow: hidden;
+    flex-direction: column;
+    background-color: #212121;
+    background: url("./iphone-wallpaper-black-feature.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.calculator{
+    margin-top: 210px;
+    margin-left: -5px;
+    transform: rotateZ(-1deg);
+    scale: 0.7;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    padding: 10px;
+    padding-bottom: 0;
+    border-radius: 30px;
+}
+
+.display{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    font-size: 25px;
+    font-family: cursive;
+    font-size: xx-large;
+    text-justify: auto;
+    background-color:#212121;
+    text-decoration: wavy;
+    color: white;
+    border-radius: 20px;
+    padding: 5%;
+    height: 25vh;
+    width: 90%;
+    margin-bottom: 4%;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    color: rgb(205, 255, 96);
+    font-style: normal;
+}
+
+
+*margin{
+    margin: 0;
+    padding: 0;
+}
+
+
+.calculator .numbers{
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    color:white;
+    border-color: purple;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.calculator .operator{
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    color:white;
+    border-color: purple;
+    margin:10px;
+    cursor: pointer;
+}
+
+
+.btn {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    background: #343434;
+    margin-top: 15px;
+    border-radius: 50%;
+    transition: 200ms;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.operator{
+    background-color: #999999;
+}
+
+.numbers{
+    color: white;
+}
+
+
+
+#ac{
+    background-color: #888888;
+    color: white;
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    justify-content: center;
+    margin: 10px;
+}
+
+#equal{
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    margin:10px;
+    cursor: pointer;
+    background-color: rgb(205, 255, 96);
+}
+
+#de{
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.btn:hover {
+    scale: 1.1;
+}
+
+.btn:active {
+    scale: 0.9;
+    background-color: #999999;
+}
